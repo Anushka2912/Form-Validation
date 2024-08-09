@@ -55,7 +55,7 @@ function checkInputs(){
 		setError(confirm,"This field cannot be blank !!!!!!");
 
 	}else if(passwordvalue !== confirmvalue){
-		setError(confirm,"Dude ! Password and Confirm Password must be same.")
+		setError(confirm,"Password and Confirm Password must be same.")
 	}
 	else{
 		// add success class
